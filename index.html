@@ -1,44 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi página personal</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a mi página personal</h1>
-        <img 
-        src="./Captura de pantalla 2025-09-12 145454.png" 
-        width="50%" 
-        alt="Mi vieja w">
-        <h2>Soy Bastian Alessandro AKA Galapan - Frontend developer</h2>
-        <p>Eric es un pendejo GGs Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea a ad dolorem, iusto corrupti quam nostrum tenetur beatae odio officia facilis dolorum modi hic labore incidunt quibusdam deserunt itaque. Dolores.</p>
+        <div>
+            <h1>Bienvenido a mi página personal</h1>
+            <img src="./wolf lego album cover.jpeg" alt="Portada del álbum Wolf Lego">
+            <h2>Soy Eric Morales Baltazar - Developer</h2>
+        </div>
     </header>
+
     <main>
-        <section>        
-            <hr>
-            <h3>Algo sobre mi</h3>
+    <section class="card">
+        <img src="edd8b7c5-94de-4879-8007-3857f22dd28b.jpeg" alt="Foto personal">
+        <div class="card-content">
+            <h3>Algo sobre mí</h3>
             <ul>
                 <li>Programador</li>
-                <li>Gym rat</li>
-                <li>Profesional</li>
+                <li>Artista emergente</li>
+                <li>Profesional en Overwatch</li>
+                <li>Diamante en LoL</li>
             </ul>
-        </section>
-        <section>
+        </div>
+    </section>
+
+    <section class="card">
+        <img src="aa1faa7b-4fff-450d-b6fb-faa8f75f6beb.jpeg" alt="Imagen representando habilidades">
+        <div class="card-content">
             <h3>Habilidades</h3>
             <ul>
-                <li>TOEFL B1</li>
+                <li>Guitarrista</li>
                 <li>Ingeniero</li>
-                <li>Perdedor en la vida</li>
+                <li>Oro en LoL</li>
             </ul>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <section class="card">
+        <img src="SithStuds on TikTok.jpeg" alt="Arte de SithStuds">
+        <div class="card-content">
+            <h3>Top artistas</h3>
+            <ul>
+                <li>Bogueto</li>
+                <li>Malilla</li>
+                <li>Cachirula</li>
+            </ul>
+        </div>
+    </section>
+</main>
+
     <footer>
-        <hr>
-        <p>Visita mi <a href="instagram.com/cffferic">instagram</a></p>
-        <input type="text" placeholder="Email">
-        <button>Suscríbete!</button>
-    </footer>
+    <hr>
+    <div class="footer-content">
+        <p>Sígueme en redes:</p>
+        <ul class="social-links">
+            <li><a href="https://www.instagram.com/cffferic/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        </ul>
+
+        <form class="subscribe-form">
+            <label for="email">Suscríbete a mi pagina</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            <button type="submit" id="btn">¡Suscríbete!</button>
+        </form>
+
+        <p class="copyright">© 2025 Eric Morales Baltazar.</p>
+    </div>
+</footer>
+
 </body>
 </html>
